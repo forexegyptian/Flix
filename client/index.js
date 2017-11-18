@@ -1,6 +1,9 @@
+
+import App from './components/App';
+
 ReactDOM.render(
 
-<h2> Hello JSX </h2>,
+<App />,
 
 document.getElementById("root")
 
