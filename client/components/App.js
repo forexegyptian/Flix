@@ -1,11 +1,11 @@
-import BookList from './BookList';
+import FilmList from './FilmList';
 
 class App extends React.Component{
 state = {answer:42};
 	render(){
 
 		return(
- <BookList />
+ <FilmList />
 			);
 	}
 }
