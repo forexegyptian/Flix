@@ -4,6 +4,10 @@ import App from '../client/components/App';
 
 const ReactDOMServer = require('react-dom/server');
 
-const html = ReactDOMServer.renderToString(<App />);
+export default () => {
 
-console.log(html);
+	return ReactDOMServer.renderToString(<App />);
+
+  
+};
+

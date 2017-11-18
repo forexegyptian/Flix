@@ -1,3 +1,4 @@
+const React = require('react');
 import Film from './Film';
 
 const FilmList = (props) =>{

@@ -1,4 +1,6 @@
+const React = require('react');
 import FilmList from './FilmList';
+
 
 class App extends React.Component{
 state = {answer:42};
