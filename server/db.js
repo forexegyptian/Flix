@@ -1,5 +1,5 @@
 var pg = require('pg');
-var client = new pg.Client({
+var pool = new pg.Pool({
 	user: 'postgres',
   host: 'localhost',
   database: 'postgres',
@@ -7,7 +7,7 @@ var client = new pg.Client({
   port: 5432,
 });
 
-client.connect(function(err){
+pool.connect(function(err,client,done){
 	if(err) throw err;
 
 
